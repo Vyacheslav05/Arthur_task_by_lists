@@ -1,0 +1,21 @@
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(list[0])
+print(list[-1])
+print(list[2:5])
+print(list[7:])
+print(list[: : -1])
+
+list = []
+list.extend([5, 10, 15])
+print(list)
+list.append(20)
+print(list)
+list.insert(1, 7)
+print(list)
+list.remove(5)
+print(list)
+index = list.index(15)
+print(index)
+count = list.count(10)
+print(count)
+print(list[: : -1])
